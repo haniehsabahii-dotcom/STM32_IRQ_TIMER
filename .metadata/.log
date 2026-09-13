@@ -1,0 +1,16 @@
+!SESSION 2026-09-13 10:58:14.393 -----------------------------------------------
+eclipse.buildId=Version 2.2.0
+java.version=21.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_IT
+Framework arguments:  -keyring /Users/hanieh.sabahi/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -keyring /Users/hanieh.sabahi/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-09-13 10:58:25.763
+!MESSAGE Log4j2 initialized with config file /Users/hanieh.sabahi/Documents/repository/STM32_IRQ_TIMER/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-09-13 10:58:27.537
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-09-13 10:59:04.142
+!MESSAGE Indexed 'STM32_IRQ_TIMER' (20 sources, 116 headers) in 1.08 sec: 10,251 declarations; 36,471 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.51%)
