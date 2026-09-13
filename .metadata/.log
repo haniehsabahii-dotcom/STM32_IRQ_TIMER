@@ -14,3 +14,34 @@ Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -keyring /Users/hani
 
 !ENTRY org.eclipse.cdt.core 1 0 2026-09-13 10:59:04.142
 !MESSAGE Indexed 'STM32_IRQ_TIMER' (20 sources, 116 headers) in 1.08 sec: 10,251 declarations; 36,471 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.51%)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2026-09-13 11:56:14.955
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: /Users/hanieh.sabahi/Documents/repository/STM32_IRQ_TIMER/STM32_IRQ_TIMER/Debug/STM32_IRQ_TIMER.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:332)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:154)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:111)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:99)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:337)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:778)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:689)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1052)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1254)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2026-09-13 11:56:14.956
+!MESSAGE /Users/hanieh.sabahi/Documents/repository/STM32_IRQ_TIMER/STM32_IRQ_TIMER/Debug/STM32_IRQ_TIMER.elf not found
+!STACK 0
+java.io.FileNotFoundException: /Users/hanieh.sabahi/Documents/repository/STM32_IRQ_TIMER/STM32_IRQ_TIMER/Debug/STM32_IRQ_TIMER.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:332)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:154)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:111)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:99)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:337)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:778)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:689)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1052)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1254)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
